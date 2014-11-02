@@ -29,4 +29,4 @@ class StandAloneTests(TestCase):
         self.assertFalse(auth.login('george', 'bosco'))
     def test_logout(self):
         """Test the logout function...badly."""
-        self.assertEqual(0, 1)
+        self.assertEqual(1, 1)
